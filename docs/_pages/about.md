@@ -1,85 +1,43 @@
 ---
-permalink: /about/
+layout: single
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
-layouts_gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
-    alt: "splash layout example"
-  - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive.png
-    alt: "archive layout example"
-last_modified_at: 2019-08-27T15:46:43-04:00
-toc: true
+permalink: /about/
+header:
+  
 ---
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
 
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
+I have a PhD in Economics; my research is about economic growth, development, international finances, banking and empirical econometrics.
+Here’s a quick taste of what you’ll find here…
+Proven evidence on the main factors of economic growth in South America, determinants of income inequality and other empirical literature on economic history in South America, Euro area and other OECD countries.
 
-[Install the Theme]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
+While I was working at the Minister of Planning and Development at Bolivia back in 2006, I decided to complete my education. The same year in Madrid, I enrolled as a student at Carlos III University of Madrid, and know many interesting people and professors that years later have become my academic and professional references; even now I keep contact with many of them for guide and collaboration.
 
-## Notable Features
+In 2007, I started working as an Associate Researcher at the Lawrence Klein Institute at the Autonoma University of Madrid, where I continued with a Master in Public Policies, definitively, I can say that being part of the Gauss Centre under the supervision of Professor Coro Chasco, I discover my interest in econometrics, applied statistics and wrangling data bases.
 
-- Bundled as a "theme gem" for easier install/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
-- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
-- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), [Discourse](https://www.discourse.org/), [utterances](https://utteranc.es/), static-based via [Staticman v1 and v2](https://staticman.net/), and custom).
-- [Google Analytics](https://www.google.com/analytics/) support.
-- UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Catalan, Chinese, Danish, Dutch, French (Français), German (Deutsch), Greek, Hindi (हिंदी), Hungarian, Indonesian, Italian (Italiano), Japanese, Korean, Malayalam, Nepali (Nepalese), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.
+For my beginnings in academic research, I picked up South America as my research theme; I guess it was by the influence of Professor Joan Roses, my thesis director (Carlos III University of Madrid), where I found the courage to find my own conclusions about the economic growth processes in the region.
 
-## Demo Pages
+In March of 2009, I decided to construct a new annual database including more than 30 growth determinants for the ten most important South American economies that was used for my PhD dissertation. Three original papers constitute my PhD dissertation, which is entitled “Economic disparities in South America: New historical evidence on immiserizing growth”.
 
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
+I also have experience in the private sector that has benefited me with many new experiences, skills to  business communication with collegues and the opportunity to write economic notes for important business leaders (National Chamber of Commerce).
 
-For even more demo pages check the [posts archive][year-archive].
+Inside the family business, it has enlightened me in the interesting and sometimes hard working experience of the real state sector and interior decoration. I learnd that living entrepreneurially is about working smarter, quickly, harder, and living better without restrictions.
 
-[header-image-post]: {{ "" | relative_url }}{% post_url 2012-03-15-layout-header-image-text-readability %}
-[gallery-post]: {{ "" | relative_url }}{% post_url 2010-09-09-post-gallery %}
-[html-tags-post]: {{ "" | relative_url }}{% post_url 2013-01-11-markup-html-tags-and-formatting %}
-[syntax-post]: {{ "" | relative_url }}{% post_url 2013-08-16-markup-syntax-highlighting %}
-[sample-collection]: {{ "/recipes/chocolate-chip-cookies/" | relative_url }}
-[categories-archive]: {{ "/categories/" | relative_url }}
-[tags-archive]: {{ "/tags/" | relative_url }}
-[year-archive]: {{ "/year-archive/" | relative_url }}
+I enjoy spending time among my hobbies, landscaping photography (every time I have the opportunity to travel), coffee, as well as any outdoor activity. My favorite exercises are: body-building, cycling, and recently I enjoy cross-fit.
 
----
 
-## Credits
+### OTHER PROFESSIONAL ACTIVITIES
 
-### Icons + Demo Images:
+* Guest columnist, VOXLACEA (August 2019 – ongoing).
+* ECONRES Research Group (Universidad Autónoma de Madrid) – Associate Researcher, (August 2013 – ongoing).
+*	Member of the International Institute of Public relations, Management & Business, Nº Reg. 201611031187, (2016-11).
+* Refeereing/Reviewer for
+     The Journal of International Trade & Economic Development (March 2012 - ongoing); 
+     Journal of Economics and International Business Management (April 2015 – ongoing); 
+     Asian Research Policy (October 2011 - ongoing). 
+     
+### PUBLICATIONS
 
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fontawesome.io/)
-- [Unsplash](https://unsplash.com/)
+*	“[Long-run determinants of economic growth in South America](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1898116 "Paper's abstract")”, Journal of Applied Economics, Vol. 19, Issue 1, May 2016.
+*	“How can fiscal policies mitigate inequality?” ECB Working papers Series (Acceptance with revisions, 10/2020).
 
-### Other:
-
-- [Jekyll](https://jekyllrb.com/)
-- [jQuery](https://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- Greedy Navigation - [lukejacksonn](https://codepen.io/lukejacksonn/pen/PwmwWV)
-- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
-- [Lunr](http://lunrjs.com)
-
----
-
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
