@@ -1,6 +1,6 @@
 ---
-layout: single
-classes: wide
+layout: tags
+
 permalink: /R Projects/
 title: "R Projects"
 tags: [R Projects]
