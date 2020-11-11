@@ -1,6 +1,6 @@
 ---
-layout: single
-classes: wide
+layout: tags
+
 permalink: /Python Projects/
 title: "Python Projects"
 tags: [Python Projects]
