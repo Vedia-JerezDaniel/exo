@@ -291,7 +291,6 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
       classes: wide
 
   # _pages
@@ -302,7 +301,6 @@ defaults:
       layout: tags
       author_profile: true
       
-
   # _foo
   - scope:
       path: ""
