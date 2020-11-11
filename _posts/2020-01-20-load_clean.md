@@ -2,7 +2,8 @@
 permalink: /Cleaning R/
 tags: 
   - R Projects
-layout: tags
+layout: single
+classes: wide
 categories:
   - R
 ---
