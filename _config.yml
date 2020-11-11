@@ -299,9 +299,9 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: tags
       author_profile: true
-      classes: wide
+      
 
   # _foo
   - scope:
