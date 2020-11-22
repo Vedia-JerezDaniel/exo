@@ -1,6 +1,6 @@
 ---
-layout: categories
-permalink: /categories/Python Projects/
+layout: tags
+permalink: /tags/Python Projects/
 title: "Python Projects"
 taxonomy: Python Projects
 tags: [Python Projects]
