@@ -1,5 +1,5 @@
 ---
-layout: tags
+layout: tag
 permalink: /tags/Python Projects/
 title: "Python Projects"
 taxonomy: Python Projects
