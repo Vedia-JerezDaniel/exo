@@ -1,9 +1,9 @@
 ---
 layout: tags
 
-permalink: /R Projects/
+permalink: /Data Science/
 title: "R Projects"
-tags: [R Projects]
+tags: [Data Science]
 author_profile: true
 header:
 image: "/images/fort point.png"
