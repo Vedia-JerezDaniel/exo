@@ -2,7 +2,7 @@
 layout: tags
 
 permalink: /Data Science/
-title: "R Projects"
+title: "Posts-by-tags"
 tags: [Data Science]
 author_profile: true
 header:
