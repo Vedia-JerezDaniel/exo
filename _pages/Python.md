@@ -1,7 +1,7 @@
 ---
 layout: categories
 permalink: /Python Projects/
-title: "Python Projects"
+title: "Categories"
 taxonomy: Python Projects
 tags: [Python Projects]
 author_profile: true
