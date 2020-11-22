@@ -1,7 +1,8 @@
 ---
 layout: categories
-permalink: /categories/
+permalink: /categories/Python Projects/
 title: "Python Projects"
+taxonomy: Python Projects
 tags: [Python Projects]
 author_profile: true
 header:
