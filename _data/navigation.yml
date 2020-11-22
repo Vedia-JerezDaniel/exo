@@ -15,6 +15,6 @@ main:
   #   url: /sitemap/
 
   - title: "Data Science"
-    url: /Posts-by-tags/
+    url: /Data Science/
 
 
