@@ -1,9 +1,9 @@
 ---
 layout: categories
-permalink: /Python Projects/
+permalink: /
 title: "Categories"
-taxonomy: Python Projects
-tags: [Python Projects]
+taxonomy: 
+tags: 
 author_profile: true
 header:
 image: "/images/fort point.png"
