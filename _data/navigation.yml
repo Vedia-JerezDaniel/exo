@@ -15,7 +15,7 @@ main:
   #   url: /sitemap/
 
 
-  - title: "Tags"
+  - title: "Data Science"
     url: /Posts by tags/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
