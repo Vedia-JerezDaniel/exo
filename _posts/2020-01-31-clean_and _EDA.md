@@ -96,7 +96,8 @@ warnings.filterwarnings('ignore')
 from IPython.display import HTML
 ```
 
- ### Summary statistics of price $US
+###  Summary statistics of price (in $US)
+
  
 | Stats | Value      |
 |-------|------------|
@@ -197,6 +198,7 @@ On the other hand, we could plot a bar chat with the brand of cars used and the 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/py/car.png)
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/py/type.png)
+
 
 ### Weather conditions
 
