@@ -96,7 +96,7 @@ warnings.filterwarnings('ignore')
 from IPython.display import HTML
 ```
 
- ### Summary statistics of `price $US`
+ ### Summary statistics of price $US
  
 | Stats | Value      |
 |-------|------------|
@@ -151,7 +151,7 @@ plt.ylabel('price $US', multialignment='center')
 plt.title('Total time and price')
 ```
 
-Here's the scatter plot of price by total and wait time: ![alt]({{ site.url }}{{ site.baseurl }}/images/py/sca2.png)
+Here's the scatter plot of price by total and wait time: ![alt]({{ site.url }}{{ site.baseurl }}/images/py/sca.png)
 
 Price by city zone: ![alt]({{ site.url }}{{ site.baseurl }}/images/py/box.png)
 
@@ -184,15 +184,48 @@ plt.show()
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/py/price.png)
 
+```python
+sns.set(rc={'figure.figsize':(12,8)})
+sns.countplot(y="vehicle_make", data=df).set_title("Car brands count")
 
-On the other hand, we could 
+sns.set(rc={'figure.figsize':(10,5)})
+sns.countplot(x="trip_type", data=df).set_title("Trip type count")
+```
+
+On the other hand, we could plot a bar chat with the brand of cars used and the type of services provided.
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/py/car.png)
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/py/type.png)
+
+### Weather conditions
+
+Also we could see how weather conditions affects the trip time.
+
+
+```python
+sns.violinplot(x="precipitation", y="total_time", data=df).set_title("Trip time by precipitation condition")
+
+plt.figure(figsize=(8, 5))
+ax = plt.subplot(121)
+plt.scatter(df['wind_speed'], df['total_time'], color = 'blue', marker='^')
+plt.ylabel('trip time in minutes', multialignment='center')
+plt.title('Wind speed on trip time')
+ax = plt.subplot(122)
+plt.scatter(df['wind_speed'], df['price_usd'], color = 'green', marker='*')
+plt.ylabel('price $US', multialignment='center')
+plt.title('Wind speed on price')
+```
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/py/vio.png)
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/py/sca2.png)
 
 
 
+Next time, we talk about regression: Linear Regression, PLS & PCR, Random Forest, Supported Vector Machines.
 
 
-
-To be continued...
 
 
 
