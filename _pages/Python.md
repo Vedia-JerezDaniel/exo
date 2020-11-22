@@ -1,7 +1,6 @@
 ---
-layout: tags
-
-permalink: /Python Projects/
+layout: categories
+permalink: /categories/
 title: "Python Projects"
 tags: [Python Projects]
 author_profile: true
