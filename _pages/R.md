@@ -2,7 +2,7 @@
 layout: tags
 
 permalink: /Data Science/
-title: "Posts-by-tags"
+title: "Data Sciences"
 tags: [Data Science]
 author_profile: true
 header:
