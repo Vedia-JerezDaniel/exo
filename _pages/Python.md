@@ -1,6 +1,6 @@
 ---
 layout: tag
-permalink: /tags/Python Projects/
+permalink: /Python Projects/
 title: "Python Projects"
 taxonomy: Python Projects
 tags: [Python Projects]
