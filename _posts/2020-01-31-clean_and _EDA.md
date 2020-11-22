@@ -1,5 +1,5 @@
 ---
-permalink: /Cleaning python & EDA/
+permalink: /Cleaning python/
 tags: 
   - Python Projects
 layout: single
