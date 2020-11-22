@@ -1,12 +1,13 @@
 ---
-permalink: /Cleaning python/
+permalink: /Cleaning python & EDA/
 tags: 
   - Python Projects
-layout: tags
+layout: single
 categories: 
   - Python
 classes: wide
 ---
+
 
 # Uber dataset in Rusia with Python
 
