@@ -225,8 +225,3 @@ plt.title('Wind speed on price')
 
 
 Next time, we talk about regression: Linear Regression, PLS & PCR, Random Forest, Supported Vector Machines.
-
-
-
-
-
