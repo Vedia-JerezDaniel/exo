@@ -4,7 +4,7 @@ tags:
   - Python Projects
 layout: single
 categories: 
-  - Python
+
 classes: wide
 ---
 
