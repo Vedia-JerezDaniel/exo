@@ -3,8 +3,6 @@ permalink: /Cleaning python/
 tags: 
   - Python Projects
 layout: single
-categories: 
-
 classes: wide
 ---
 
