@@ -1,7 +1,7 @@
 ---
 layout: tags
 
-permalink: /Data Science/ #es la url de la web#
+permalink: /Statistics/ #es la url de la web#
 title: "Posts by tags"
 tags: [Data Science]
 author_profile: true
