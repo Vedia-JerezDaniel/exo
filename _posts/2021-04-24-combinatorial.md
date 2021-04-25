@@ -1,7 +1,7 @@
 ---
 permalink: /Combinatoty analysis/
 tags:
-  - Probability
+  - Statistics
 layout: single
 classes: wide
 categories:
