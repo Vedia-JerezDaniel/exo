@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: "About"
+title: "About me"
 permalink: /about/
 header:
   
