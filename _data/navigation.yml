@@ -4,17 +4,21 @@ main:
     url: /about/
     
   #- title: "Data Wrangling Projects"
-   # url: /data-wrangling/
+  # url: /data-wrangling/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  # title: "Sitemap"
+  #  url: /sitemap/
 
   - title: "Data Science"
     url: /Data Science/
+  - title: "Tag"
+    url: /tag-archive/
+  - title: "category"
+    url: /category-archive/
 
 
