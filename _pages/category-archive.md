@@ -1,7 +1,7 @@
 ---
 title: "Posts by Category"
 layout: categories
-permalink: /BIG Collection/
+permalink: /categories/
 author_profile: true
 header:
 image: "/images/fort point.png"
