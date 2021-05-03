@@ -9,12 +9,6 @@ categories:
   - Statistics
 ---
 
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
-
-
 # Combinatorial analysis
 
 
@@ -46,12 +40,17 @@ $$
 P(A)=\frac{Event\ outcomes\ favorable}{Sample\ space}
 $$
 
+<img src="https://render.githubusercontent.com/render/math?math=P(A)%3D%5Cfrac%7BEvent%5C%20outcomes%5C%20favorable%7D%7BSample%5C%20space%7D%0A">
+
 In the case of the coin flipping, the probability of the coin landing on tails is  0.5.
 
 There are 52 cards In a standard deck of cards and of those 52 cards, 4 are Aces. If you follow the example of the coin flipping from above to know the probability of drawing an Ace, you'll divide the number of possible event outcomes (4), by the sample space (52):
+
 $$
 P(A)=4/52=0.08
 $$
+
+<img src="https://render.githubusercontent.com/render/math?math=P(A)%3D4%2F52%3D0.08%0A">
 
 ```python
 # Create function that returns probability percent rounded to one decimal place
@@ -96,9 +95,12 @@ As a matter of fact, a permutation is an ordered combination. There are basicall
 (In other words, there are **n** possibilities for the first choice, THEN there are **n** possibilities for the second choice, and so on, multiplying each time.)
 
 Which is easier to write down using an [exponent](https://www.mathsisfun.com/exponent.html) of **r**:
+
 $$
 n^r
 $$
+
+<img src="https://render.githubusercontent.com/render/math?math=n%5Er%0A">
 
 #### Permutations without repetition
 
@@ -115,6 +117,8 @@ $$
 $$
 10P4=10!/(10−4)!
 $$
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=nPk=\frac{n!}{(n-r)!}\\&space;\\&space;10P4=10!/(10-4)!" target="_blank"><img src="https://latex.codecogs.com/gif.latex?nPk=\frac{n!}{(n-r)!}\\&space;\\&space;10P4=10!/(10-4)!" title="nPk=\frac{n!}{(n-r)!}\\ \\ 10P4=10!/(10-4)!" /></a>
 
 Where n is the number of things to choose from,and we choose r of them, no repetitions, order matters.
 
@@ -147,6 +151,8 @@ $$
 nCk=\frac{n!}{r!(n-r)!}
 $$
 
+<img src="https://render.githubusercontent.com/render/math?math=nCk%3D%5Cfrac%7Bn!%7D%7Br!(n-r)!%7D%0A">
+
 And is also known as the [Binomial Coefficient](https://www.mathsisfun.com/data/binomial-distribution.html).
 
 An example here is the following situation where you have your deck of cards, which consists of 52 cards. Three cards are going to be taken out of the deck. How many different ways can you choose these three cards?
@@ -157,6 +163,8 @@ $$
 52C3=\frac{52!}{3!(52-3)!}
 $$ 
 
+<img src="https://render.githubusercontent.com/render/math?math=52C3%3D%5Cfrac%7B52!%7D%7B3!(52-3)!%7D%0A">
+
 Where you clearly see that the numerator is exactly the same formula as the permutations formula that you have just seen, while the denominator is the factorial of the number of cards that you will actually choose.
 
 #### Combinations with repetition/replacement
@@ -164,6 +172,8 @@ Where you clearly see that the numerator is exactly the same formula as the perm
 $$
 nCk=\frac{(r+n-1)!}{r!(n-1)!}
 $$
+
+<img src="https://render.githubusercontent.com/render/math?math=nCk%3D%5Cfrac%7B(r%2Bn-1)!%7D%7Br!(n-1)!%7D%0A">
 
 There are six combinations of pocket Aces. To find the number of combinations, you first must find the number of permutations.
 
@@ -225,6 +235,8 @@ P(A|B)=P(A)\\
 P(B|A)=P(B)
 $$
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A∩B)=P(A)P(B)\\&space;P(A|B)=P(A)\\&space;P(B|A)=P(B)" target="_blank"><img 
+                                                                                                                                                
 Let's consider the following example, where you already know the probability of drawing an Ace on the first draw. Now you need to determine the probability of drawing an Ace on the second draw, if the first card drawn was either a King or an Ace:
 
 ###### Python
@@ -261,6 +273,8 @@ $$
 P(EventA∩EventB)=P(EventA)×P(EventA)
 $$
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(EventA\bigcap&space;EventB)=P(EventA)*P(EventA)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(EventA\bigcap&space;EventB)=P(EventA)*P(EventA)" title="P(EventA\bigcap EventB)=P(EventA)*P(EventA)" /></a>
+
 For your deck of playing cards, you could ask yourself the question "What is the probability of getting three Hearts when choosing without replacement?". When you sample or choose without replacement, it means that you choose a card but do not put it back, so that your final selection cannot include that same card. In this case, your probability calculation will be the following: 13/52 x 12/51 x 11/50.
 
 ### Mutually Exclusive Events
@@ -270,6 +284,8 @@ When you're working with multiple events, you might also have events that are mu
 $$
 P(EventA∪EventB)=P(EventA)+P(EventB)
 $$
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(EventA\bigcup&space;EventB)=P(EventA)&plus;P(EventB)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(EventA\bigcup&space;EventB)=P(EventA)&plus;P(EventB)" title="P(EventA\bigcup EventB)=P(EventA)+P(EventB)" /></a>
 
 It's key here to understand that the "OR" component is very important: drawing a heart OR drawing a club are two mutually exclusive events. A heart is a heart and a club is a club. To determine the probability of drawing a heart or drawing a club, add the probability of drawing a heart to the probability of drawing a club.
 
@@ -347,6 +363,8 @@ $$
 P(EventA∩EventB)=P(EventA)×P(EventB)
 $$
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(EventA\bigcap&space;EventB)=P(EventA)&plus;P(EventB)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(EventA\bigcap&space;EventB)=P(EventA)&plus;P(EventB)" title="P(EventA\bigcap EventB)=P(EventA)+P(EventB)" /></a>
+
 If you want to know the probability of drawing an Ace from a deck of cards, replacing it, reshuffling the deck, and drawing another Ace, you multiply the probability of drawing and Ace times the probability of drawing an Ace.
 
 ```python
@@ -378,6 +396,8 @@ The probability of the intersection of two non independent events (Event A & Eve
 $$
 P(EventA∩EventB|A)=P(EventA)×P(EventB|A)
 $$
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(EventA\bigcap&space;EventB|A)=P(EventA)*P(EventB|A)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(EventA\bigcap&space;EventB|A)=P(EventA)*P(EventB|A)" title="P(EventA\bigcap EventB|A)=P(EventA)*P(EventB|A)" /></a>
 
 The best starting hand you can have in Texas Hold’em is pocket Aces. What is the probability of being dealt two Aces?
 
@@ -412,9 +432,9 @@ When playing a game such as poker, you're fairly concerned with questions such a
 Now, if the possible outcomes of the game and their associated probabilities can be described by a random variable, then you can answer the above question by computing its **expected value**, which is equal to a weighted average of the outcomes where each outcome is weighted by its probability.
 
 Or, in other words, you simply multiply the Total Value times the probability of winning to get your Expected Value:
-$$
-ExpectedValue=TotalValue×Probability
-$$
+
+_ExpectedValue = TotalValue × Probability_
+
 What is the expected value if there is $100 (Total Value) in the pot, and your probability of winning the pot is 0.75?
 
 ```python
@@ -439,6 +459,8 @@ $$
 p=\frac{(n)_r}{n^r}
 $$
 
+<img src="https://render.githubusercontent.com/render/math?math=p%3D%5Cfrac%7B(n)_r%7D%7Bn%5Er%7D">
+
 for example, the probability that five consecutive random digits are all different is:
 
 ```python
@@ -457,6 +479,8 @@ print(p)
 $$
 n!/n^n
 $$
+
+<img src="https://render.githubusercontent.com/render/math?math=n!%2Fn%5En">
 
 Which is surprisingly small:  for n=7 is only 0.00612.
 
@@ -481,11 +505,18 @@ Which is surprisingly small:  for n=7 is only 0.00612.
         $$
         \frac{(p+q)!}{p!q!}=\binom{p+q}{p}=\binom{p+q}{q}
         $$
+        
+        <img src="https://render.githubusercontent.com/render/math?math=%5Cfrac%7B(p%2Bq)!%7D%7Bp!q!%7D%3D%5Cbinom%7Bp%2Bq%7D%7Bp%7D%3D%5Cbinom%7Bp%2Bq%7D%7Bq%7D">
+        
         **Theorem 2**. Let be a list of integers _r1+r2+.....+rk = n_, where b can be divided into k parts, and it is not important the order of groups.
+        
         $$
         \frac{n!}{r_1!r_2!...r_k!}
         $$
-        For example the probability of an ace to each player in a Bridge table:
+        
+        <img src="https://render.githubusercontent.com/render/math?math=%5Cfrac%7Bn!%7D%7Br_1!r_2!...r_k!%7D">
+        
+                For example the probability of an ace to each player in a Bridge table:
     
         52 total cards, 4 players, the number of different situations is equal to:
     
@@ -523,10 +554,14 @@ If we take a sub sample of size _r_, the probability that contains _k1_ of the f
 $$
 \binom{n_1}{k_1}\binom{n_2}{k_2}\binom{n-n_1-n_2}{r-k_1-k_2}/\binom{n}{r}
 $$
+<img src="https://render.githubusercontent.com/render/math?math=%5Cbinom%7Bn_1%7D%7Bk_1%7D%5Cbinom%7Bn_2%7D%7Bk_2%7D%5Cbinom%7Bn-n_1-n_2%7D%7Br-k_1-k_2%7D%2F%5Cbinom%7Bn%7D%7Br%7D">
+
 The probability defined by the _hypergeometric distribution_:
 $$
 q_k= \frac{\binom{r}{k}\binom{n-r}{n_1-k}}{\binom{n}{n_1}}
 $$
+
+<img src="https://render.githubusercontent.com/render/math?math=q_k%3D%20%5Cfrac%7B%5Cbinom%7Br%7D%7Bk%7D%5Cbinom%7Bn-r%7D%7Bn_1-k%7D%7D%7B%5Cbinom%7Bn%7D%7Bn_1%7D%7D">
 
 #### Examples
 
@@ -544,10 +579,14 @@ qk
 1.060e-05
 ```
 
-b.	In case we have to estimate an approximation of total population we could use
+b.	In case we have to estimate an approximation of total population we could use.
+
 $$
 n \approx \frac{n_1*r}{k}
 $$
+
+<img src="https://render.githubusercontent.com/render/math?math=n%20%5Capprox%20%5Cfrac%7Bn_1*r%7D%7Bk%7D">
+
 Let's see we have a first catch of fishes of 1,000 all had red spots, after releasing them  we did a second catch of 1,000, and in this last one we had 100 fishes with red spots, we don't have the total population, and we would like to have the probability of red spots fishes in the pond.
 
 ```python
@@ -565,9 +604,12 @@ qk
 ```
 
 c.	In a bridge game, the probability that a hand of thirteen cards consists of five spades, four hearths, three diamonds and one club is:
+
 $$
 \binom{13}{5}\binom{13}{4}\binom{13}{3}\binom{13}{1}/\binom{52}{13} = 0.0053
 $$
+
+<img src="https://render.githubusercontent.com/render/math?math=%5Cbinom%7B13%7D%7B5%7D%5Cbinom%7B13%7D%7B4%7D%5Cbinom%7B13%7D%7B3%7D%5Cbinom%7B13%7D%7B1%7D%2F%5Cbinom%7B52%7D%7B13%7D%20%3D%200.0053">
 
 ```python
 n=52
