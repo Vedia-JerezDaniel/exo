@@ -11,9 +11,6 @@ categories:
 
 # Combinatorial analysis
 
-[TOC]
-
-
 
 ## Probability Theory: An Introduction
 
@@ -38,6 +35,7 @@ Now that you have an idea of the key concepts that you'll be using throughout th
 This means that you have to consider first how many possible ways there are for the coin to land on tails, and the number of possible outcomes. The former is 1, as you have only one possible way to get tails. The latter is 2, as you will either get heads or tails when you flip the coin.
 
 To summarize, the calculation of the probability of an event A will look something like this:
+
 $$
 P(A)=\frac{Event\ outcomes\ favorable}{Sample\ space}
 $$
@@ -102,6 +100,7 @@ The probability of having no repeated digits can be calculated by executing the 
 10×9×8×710×9×8×7
 
 You have 10 numbers to choose from, but as you're working without replacement, one option always falls away as you pick a number for the 4-digit pin. This means that in picking the first number for your pin, you'll have 10 numbers to choose from (0 to 9), but for the second number of your pin, you'll only have 9 options to choose from, etc.
+
 $$
 nPk=\frac{n!}{(n-r)!}
 $$
@@ -110,7 +109,7 @@ $$
 10P4=10!/(10−4)!
 $$
 
-where n is the number of things to choose from,and we choose r of them, no repetitions, order matters.
+Where n is the number of things to choose from,and we choose r of them, no repetitions, order matters.
 
 ```python
 # Permutations Code
@@ -136,19 +135,21 @@ You have seen that when you're working with permutations, the order matters. Wit
 #### Combinations without repetition/replacement
 
 The formula, for the number of combinations without repetition/replacement, would be very similar to working out the number of permutations without repetition/replacement; it is simply the same formula but decreased by the number of size r permutations without replacement/repetition:
+
 $$
 nCk=\frac{n!}{r!(n-r)!}
 $$
+
 And is also known as the [Binomial Coefficient](https://www.mathsisfun.com/data/binomial-distribution.html).
 
 An example here is the following situation where you have your deck of cards, which consists of 52 cards. Three cards are going to be taken out of the deck. How many different ways can you choose these three cards?
 
 This means that your calculation of the combinations will look like this:
 
-
 $$
 52C3=\frac{52!}{3!(52-3)!}
-$$ {sss}
+$$ 
+
 Where you clearly see that the numerator is exactly the same formula as the permutations formula that you have just seen, while the denominator is the factorial of the number of cards that you will actually choose.
 
 #### Combinations with repetition/replacement
@@ -197,8 +198,6 @@ comb_with_replacement(52,2)
 1378
 ```
 
-
-
 ## Independent versus Dependent Events
 
 You have read in the introduction that an event is a well-defined subset of the sample space. Events can be classified into two categories: dependent or independent.
@@ -210,6 +209,7 @@ Dependent events, then, are events that have an impact on the probability of the
 For example, you draw a card from the deck and then draw a second card from the deck without replacing the first card. In this case, the probability of drawing an Ace the fist draw is not the same as the probability of drawing an Ace on the second draw. After the first card is drawn, the sample space has reduced by 1, from 52 to 51. Depending on what the card was on the first draw, the number of event outcomes may have also changed. If the card was an Ace, there are now only 3 Aces remaining for the second draw.
 
 Let's consider these definitions in formal terms now. Events A and B (which have nonzero probability) are independent if and only if one of the following equivalent statements holds:
+
 $$
 P(A∩B)=P(A)P(B)\\
 
@@ -217,6 +217,7 @@ P(A|B)=P(A)\\
 
 P(B|A)=P(B)
 $$
+
 Let's consider the following example, where you already know the probability of drawing an Ace on the first draw. Now you need to determine the probability of drawing an Ace on the second draw, if the first card drawn was either a King or an Ace:
 
 ###### Python
@@ -258,18 +259,18 @@ For your deck of playing cards, you could ask yourself the question "What is the
 ### Mutually Exclusive Events
 
 When you're working with multiple events, you might also have events that are mutually exclusive or disjoint: they cannot both occur. In such cases, you might want to calculate the probability (or the union) of any of multiple mutually exclusive events occurring. In such cases, you don't multiply probabilities, but you simply add together the probability of each event occurring:
+
 $$
 P(EventA∪EventB)=P(EventA)+P(EventB)
 $$
+
 It's key here to understand that the "OR" component is very important: drawing a heart OR drawing a club are two mutually exclusive events. A heart is a heart and a club is a club. To determine the probability of drawing a heart or drawing a club, add the probability of drawing a heart to the probability of drawing a club.
 
 1. Drawing a heart or drawing a club;
 
 2. Drawing an ace, a king or a queen.
 
-    
-
-    ###### Python
+###### Python
 
 ```python
 # Sample Space
@@ -334,9 +335,11 @@ print(round(red_or_face_cards, 1))
 ### Intersection of Independent Events
 
 The probability of the intersection of two independent events is determined by multiplying the probabilities of each event occurring.
+
 $$
 P(EventA∩EventB)=P(EventA)×P(EventB)
 $$
+
 If you want to know the probability of drawing an Ace from a deck of cards, replacing it, reshuffling the deck, and drawing another Ace, you multiply the probability of drawing and Ace times the probability of drawing an Ace.
 
 ```python
@@ -364,9 +367,11 @@ The probability of drawing two Aces in a row, independently, is 0.592%. What if 
 ### Intersection of Dependent Events
 
 The probability of the intersection of two non independent events (Event A & Event B given A) is determined by multiplying the probability of Event A occurring times the probability of Event B given A.
+
 $$
 P(EventA∩EventB|A)=P(EventA)×P(EventB|A)
 $$
+
 The best starting hand you can have in Texas Hold’em is pocket Aces. What is the probability of being dealt two Aces?
 
 ```python
@@ -419,8 +424,6 @@ print(expected_value)
 
 You're expected value is $75. Expected value is an important concept in poker. Let’s go back to the first flush example to see how to use expected values to your advantage.
 
-
-
 #### Examples of probability
 
 1. We seek the probability of no repetition in our sample:
@@ -441,10 +444,6 @@ print(p)
 
 0.00252
 ```
-
-$$
-
-$$
 
 2. If _n balls are randomly placed into n cells, the probability that each cell will be occupied equals:
 
@@ -494,7 +493,7 @@ Which is surprisingly small:  for n=7 is only 0.00612.
         0.105
         ```
     
-        _Dices_: A throw of ten dice can result as $`6^10$ different outcomes with equal probabilities, the event of each face can appear three times in as many ways is equal to:
+        _Dices_: A throw of ten dice can result as 6^10 different outcomes with equal probabilities, the event of each face can appear three times in as many ways is equal to:
     
         ```python
         math.factorial(10)/(3**6*6**10)
@@ -506,8 +505,6 @@ Which is surprisingly small:  for n=7 is only 0.00612.
         0.00094
         ```
     
-        
-
 ### The Hypergeometric distribution
 
 Many combinatorial problems can be reduced to the following form of a population of _n_ elements, where n<sub>2</sub> = n -  n<sub>1</sub>. Where we see the probability of red elements (_k_) and blacks ones (_r - k_).
@@ -515,6 +512,7 @@ Many combinatorial problems can be reduced to the following form of a population
 The hypergeometric distribution can be generalized where the total population _n_ contains several classes of elements, for example it contains three subclasses (n1, n2, and n - n1 -n2) respectively.
 
 If we take a sub sample of size _r_, the probability that contains _k1_ of the first, _k2_ of the second, and _r-k1-k2_ of the last one, can be defined by the analogy:
+
 $$
 \binom{n_1}{k_1}\binom{n_2}{k_2}\binom{n-n_1-n_2}{r-k_1-k_2}/\binom{n}{r}
 $$
