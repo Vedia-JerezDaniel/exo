@@ -1,3 +1,8 @@
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
+
 ---
 permalink: /Combinatory analysis/
 tags:
@@ -36,16 +41,16 @@ This means that you have to consider first how many possible ways there are for 
 
 To summarize, the calculation of the probability of an event A will look something like this:
 
-$
+$$
 P(A)=\frac{Event\ outcomes\ favorable}{Sample\ space}
-$
+$$
 
 In the case of the coin flipping, the probability of the coin landing on tails is  0.5.
 
 There are 52 cards In a standard deck of cards and of those 52 cards, 4 are Aces. If you follow the example of the coin flipping from above to know the probability of drawing an Ace, you'll divide the number of possible event outcomes (4), by the sample space (52):
-$
+$$
 P(A)=4/52=0.08
-$
+$$
 
 ```python
 # Create function that returns probability percent rounded to one decimal place
