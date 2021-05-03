@@ -1,5 +1,5 @@
 ---
-permalink: /Combinatoty analysis/
+permalink: /Combinatory analysis/
 tags:
   - Statistics
 layout: single
