@@ -1,3 +1,14 @@
+---
+permalink: /Combinatoty analysis/
+tags:
+  - Statistics
+layout: single
+classes: wide
+categories:
+  - Statistics
+---
+
+
 # Combinatorial analysis
 
 [TOC]
