@@ -1,4 +1,3 @@
-
 ---
 permalink: /Combinatory analysis/
 tags:
@@ -8,6 +7,7 @@ classes: wide
 categories:
   - Statistics
 ---
+
 
 # Combinatorial analysis
 
