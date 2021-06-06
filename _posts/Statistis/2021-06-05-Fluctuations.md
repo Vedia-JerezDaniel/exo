@@ -1,4 +1,5 @@
 ---
+title: Fluctuations in coin tossing
 permalink: /Fluctiations/
 tags:
   - Statistics
@@ -76,12 +77,12 @@ As we can see from the previous results, in this example, Player 1 has a higher 
 
 Fig. 1
 
-![alt](/images/Stats/1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Stats/1.png)
 
 
 Fig 1.2
 
-![alt](/images/Stats/1.2.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Stats/1.2.png)
 
 
 ### Finding k -equality number-
@@ -167,7 +168,7 @@ plt.show()
 
 Fig 2
 
-![alt](/images/Stats/2.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Stats/2.png)
 
 ```python
 from astropy.table import QTable, Table, Column
@@ -295,4 +296,4 @@ Number of times in the negative side 5005 ; 0.5005 percentage of total time
 
 Fig 3
 
-![alt](/images/Stats/3.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Stats/3.png)
