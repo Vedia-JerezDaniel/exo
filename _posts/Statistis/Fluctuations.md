@@ -8,11 +8,11 @@ _Sn = X1 + X2 + .... Xn, and S0 = 0_
 
 For the probability we write
 
-![]<img alt="formula" src="https://render.githubusercontent.com/render/math?math=p_{n,r}=P[S_n=r]=\binom{n}{\frac{n%2Br}{2}}2^{-n}%20\\%20u_{2v}=\binom{2v}{v}2^{-2v}" />
+<img src="https://latex.codecogs.com/svg.image?p_{n,r}=P[S_n=r]=\binom{n}{\frac{n&plus;r}{2}}2^{-n}&space;\\u_{2v}=\binom{2v}{v}2^{-2v}" title="p_{n,r}=P[S_n=r]=\binom{n}{\frac{n+r}{2}}2^{-n} \\u_{2v}=\binom{2v}{v}2^{-2v}" />
 
 The last binomial coefficient could be expressed as Stirling's formula
 
-![]<img alt="formula" src="https://render.githubusercontent.com/render/math?math=u_{2v}\approx\frac{1}{\sqrt{v\pi}}" />
+<img src="https://latex.codecogs.com/svg.image?u_{2v}\approx\frac{1}{\sqrt{v\pi}}" title="u_{2v}\approx\frac{1}{\sqrt{v\pi}}" />
 
 
 ## Last visit and long leads
@@ -103,7 +103,7 @@ Concluding, we can see that we cannot judge the luck of Player 1 and 2 equally, 
 
 The probability that up to and including epoch _2n_ the last visit to the origin occurs at epoch _2k_ is given by:
 
-![]<img alt="formula" src="https://render.githubusercontent.com/render/math?math=\alpha_{2k,2n}=\frac{\binom{2n}{k}}{2^{2n}}" />
+<img src="https://latex.codecogs.com/svg.image?\alpha_{2k,2n}=\frac{\binom{2n}{k}}{2^{2n}}" title="\alpha_{2k,2n}=\frac{\binom{2n}{k}}{2^{2n}}" />
 
 
 We see that as _k_ increases also increases the probability, also we can see that it is almost similar to an _arc sine distribution_ of _k_ values as the values of _k_ and sample (n) increases.
@@ -185,7 +185,7 @@ Lastly, considering the above example of coins tossing. The number of changes in
 
  However, as long the number of epochs (r) increases the probability of the number changes should decrease.
  
-![]<img alt="formula" src="https://render.githubusercontent.com/render/math?math=\varepsilon_{0,n}%20>%20\varepsilon_{0,n}%20>%20\varepsilon_{0,n}%20>%20..." />
+<img src="https://latex.codecogs.com/svg.image?\varepsilon_{0,n}&space;>&space;\varepsilon_{0,n}&space;>&space;\varepsilon_{0,n}&space;>&space;..." title="\varepsilon_{0,n} > \varepsilon_{0,n} > \varepsilon_{0,n} > ..." />
 
 As we see the probability has a Normal approximation:
 
