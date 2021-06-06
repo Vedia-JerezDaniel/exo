@@ -1,4 +1,5 @@
 ---
+permalink: /Fluctiations/
 tags:
   - Statistics
 layout: single
