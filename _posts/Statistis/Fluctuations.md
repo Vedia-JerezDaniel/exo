@@ -7,14 +7,13 @@ We denote individual step generically by _X1, X2, .... Xn_, and the positions by
 _Sn = X1 + X2 + .... Xn, and S0 = 0_
 
 For the probability we write
-$$
-p_{n,r}=P[S_n=r]=\binom{n}{\frac{n+r}{2}}2^{-n} \\
-u_{2v}=\binom{2v}{v}2^{-2v}
-$$
+
+<img src="http://www.sciweavers.org/tex2img.php?eq=p_%7Bn%2Cr%7D%3DP%5BS_n%3Dr%5D%3D%5Cbinom%7Bn%7D%7B%5Cfrac%7Bn%2Br%7D%7B2%7D%7D2%5E%7B-n%7D%20%5C%5C%0Au_%7B2v%7D%3D%5Cbinom%7B2v%7D%7Bv%7D2%5E%7B-2v%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="p_{n,r}=P[S_n=r]=\binom{n}{\frac{n+r}{2}}2^{-n} \\u_{2v}=\binom{2v}{v}2^{-2v}" width="233" height="97" />
+
 The last binomial coefficient could be expressed as Stirling's formula
-$$
-u_{2v}\approx\frac{1}{\sqrt{v\pi}}
-$$
+
+<img src="http://www.sciweavers.org/tex2img.php?eq=u_%7B2v%7D%5Capprox%5Cfrac%7B1%7D%7B%5Csqrt%7Bv%5Cpi%7D%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="u_{2v}\approx\frac{1}{\sqrt{v\pi}}" width="94" height="44" />
+
 
 ## Last visit and long leads
 
@@ -103,9 +102,10 @@ Concluding, we can see that we cannot judge the luck of Player 1 and 2 equally, 
 ## Arc sine law for last visits
 
 The probability that up to and including epoch _2n_ the last visit to the origin occurs at epoch _2k_ is given by:
-$$
-\alpha_{2k,2n}=\frac{\binom{2n}{k}}{2^{2n}}
-$$
+
+<img src="http://www.sciweavers.org/tex2img.php?eq=%5Calpha_%7B2k%2C2n%7D%3D%5Cfrac%7B%5Cbinom%7B2n%7D%7Bk%7D%7D%7B2%5E%7B2n%7D%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\alpha_{2k,2n}=\frac{\binom{2n}{k}}{2^{2n}}" width="106" height="49" />
+
+
 We see that as _k_ increases also increases the probability, also we can see that it is almost similar to an _arc sine distribution_ of _k_ values as the values of _k_ and sample (n) increases.
 
 For this point, we will use a simulation with 20 observations.
@@ -154,10 +154,6 @@ insetrt fig 2
 
 
 
-
-
-
-
 ```python
 from astropy.table import QTable, Table, Column
 from astropy import units as u
@@ -178,22 +174,22 @@ t
 | 15    | 0.03658473820541985   |
 | 19    | 0.11940065487578977   |
 
+
 As we can see as _n_ increases also the value of _k_, possibly reflecting the notion that as _n_ increases in a coin-tossing game, one of the players will remain more time on one side, and the other on the other side.  This is half-truth, due to two reason, we can see from the above example that Player 1 has more head counts than Player 2, but contrary to the theory, from Figure 3, we saw that the "arc sine distribution" appears when _n_ starts increasing. 
 
 
 
 ## Changes of signs
 
-Lastly, considering the above example of coins tossing. The number of changes in a _n trials_ game, we should expect a number of changes (opposite sides) around  $\sqrt(n)$.
+Lastly, considering the above example of coins tossing. The number of changes in a _n trials_ game, we should expect a number of changes (opposite sides) around the square root of _n_. 
 
  However, as long the number of epochs (r) increases the probability of the number changes should decrease.
-$$
-\varepsilon_{0,n} > \varepsilon_{0,n} > \varepsilon_{0,n} > ...
-$$
+ 
+<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cvarepsilon_%7B0%2Cn%7D%20%3E%20%5Cvarepsilon_%7B0%2Cn%7D%20%3E%20%5Cvarepsilon_%7B0%2Cn%7D%20%3E%20...&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\varepsilon_{0,n} > \varepsilon_{0,n} > \varepsilon_{0,n} > ..." width="178" height="17" />
+
 As we see the probability has a Normal approximation:
-$$
-pr \approx \frac{1}{\sqrt{\pi*r}}
-$$
+
+<img src="http://www.sciweavers.org/tex2img.php?eq=pr%20%5Capprox%20%5Cfrac%7B1%7D%7B%5Csqrt%7B%5Cpi%2Ar%7D%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="pr \approx \frac{1}{\sqrt{\pi*r}}" width="101" height="44" />
 
 
 ```python
@@ -214,8 +210,6 @@ t['k'] = [5,10,20,30]
 t['a'] = np.round(pr,3)
 ```
 
-
-
 **Table 2. Table of probabilities of no change**
 
 | _r_  | _pr_  |
@@ -224,7 +218,6 @@ t['a'] = np.round(pr,3)
 | 10   | 0.178 |
 | 20   | 0.126 |
 | 30   | 0.103 |
-
 
 
 ### Counting the number of changes in the tossing coins example
