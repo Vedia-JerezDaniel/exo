@@ -189,7 +189,7 @@ Lastly, considering the above example of coins tossing. The number of changes in
 
 As we see the probability has a Normal approximation:
 
-![formula](https://render.githubusercontent.com/render/math?math=pr%20\approx%20\frac{1}{\sqrt{\pi*r}}\ltimes)
+<img src="https://latex.codecogs.com/svg.image?pr&space;\approx&space;\frac{1}{\sqrt{\pi*r}}" title="pr \approx \frac{1}{\sqrt{\pi*r}}" />
 
 
 ```python
