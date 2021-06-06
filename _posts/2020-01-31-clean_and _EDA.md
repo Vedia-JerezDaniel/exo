@@ -223,5 +223,4 @@ plt.title('Wind speed on price')
 ![alt]({{ site.url }}{{ site.baseurl }}/images/py/sca2.png)
 
 
-
 Next time, we talk about regression: Linear Regression, PLS & PCR, Random Forest, Supported Vector Machines.
