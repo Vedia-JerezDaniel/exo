@@ -65,7 +65,7 @@ As we can see from the previous results, in this example, Player 1 has a higher 
 
 Fig. 1
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/Stats/1.png)
+![alt](/images/Stats/1.png)
 
 
 Fig 1.2
