@@ -70,7 +70,7 @@ Fig. 1
 
 Fig 1.2
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/Stats/1.2.png)
+![alt](/images/Stats/1.2.png)
 
 
 ### Finding k -equality number-
@@ -156,7 +156,7 @@ plt.show()
 
 Fig 2
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/Stats/2.png)
+![alt](/images/Stats/2.png)
 
 ```python
 from astropy.table import QTable, Table, Column
@@ -284,4 +284,4 @@ Number of times in the negative side 5005 ; 0.5005 percentage of total time
 
 Fig 3
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/Stats/3.png)
+![alt](/images/Stats/3.png)
