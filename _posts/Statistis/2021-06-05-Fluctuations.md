@@ -1,3 +1,13 @@
+---
+tags:
+  - Statistics
+layout: single
+classes: wide
+categories:
+  - Statistics
+---
+
+
 # Fluctuations in coin tossing
 
 The ideal coin-tossing game will be described in the terminology of random walks which is better suited for generalizations. For the geometric description it is convenient to pretend that tossings are performed at a uniformed rate so that the _nth_ trial occurs at epoch _p_.
