@@ -316,3 +316,6 @@ paginate: 4 # amount of posts to show
 paginate_path: /page:num/
 
 theme: jekyll-theme-modernist
+
+
+{% raw %}{% seo %}{% endraw %}
