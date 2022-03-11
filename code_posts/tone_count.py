@@ -2,7 +2,7 @@ import re
 import os
 import pickle
 
-neg = "E:\\GitRepo\\CB speeches\\data\\negate"
+neg = "data\\negate"
 infile = open(neg, "rb")
 negate = pickle.load(infile)
 
