@@ -93,9 +93,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : #"google-universal", "custom"
+  provider               : "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-7NTBSSX86F
 
 # Site Author
 author:
