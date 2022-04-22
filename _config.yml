@@ -93,9 +93,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "custom"
+  provider               : "google-gtag"
   google:
-    tracking_id          : G-7NTBSSX86F
+    measurement_id       : "G-7NTBSSX86F"
+    anonymize_ip         : # true, false (default)
 
 # Site Author
 author:
